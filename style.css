@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    height: 100vh;
+    width: 13vw;
+    background-color: rgb(168, 165, 165);
+    transition: transform 0.3s ease-in ;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30;
+    padding: 33px 0;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+
+.main {
+    width: 100vw;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+
+    margin: 123px auto;
+    height: 70vh;
+    width: 71vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 265px;
+}
+
+.devpic img {
+    height: 68vh;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 75px;
+
+}
+
+.name {
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.about {
+    font-size: 35px;
+
+}
+
+.moreabout{
+    font-size: 19px;
+    margin-top: 12px;
+
+}
+
+.btn {
+    margin-top: 34px;
+    padding: 7px;
+    border-radius: 55px;
+    color: aliceblue;
+    background-color: rgb(24, 64, 97);
+    font-weight:bold ;
+    cursor: pointer;
+}
+
+.btnsm {
+    width: 81px;
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 55px;
+    color: aliceblue;
+    background-color: rgb(24, 64, 97);
+    font-weight:bold ;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: rgb(24, 64, 97);
+
+}
+
+.contactform{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 85px;
+    padding: 0 288px;
+    margin: 0 222px;
+    
+
+    
+
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 42px 0;
+
+
+}
+
+.contactform form div{
+    
+    padding: 11px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contactform form div input{
+    width: 38vw;
+    border-radius: 5px;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 7px;
+    color: midnightblue;
+    margin:0 5px;
+}
+
+
+#form-check{
+    flex-direction: row;
+    padding-right: 33px;
+
+}
+
+#form-check input{
+    width: 24px;
+}
+
+#form-check label{
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+p{
+    font-family: 'Playpen Sans', cursive;
+    margin-top: 3px;
+    font-size: 21px;
+
+
+}
+
+.intro h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 12px;
+    
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+
+
+}
+
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px
+  padding-bot
+  color: white;
+}
+
+.html {width: 60%; background-color: #04AA6D;} 
+.css {width: 70%; background-color: #2196F3;} 
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;} 
+
+@media (max-width: 1615px) {
+
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+    .devpic{
+        display: none;
+    }
+    .intro, .container, .about, .contactform{
+        margin: 8px;
+    }
+
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 11px;
+    left: 11px;
+}
+
+.cross{
+    margin-left: 185px;
+    margin-top: 11px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.ham{
+    margin-top: 11px;
+    margin-left: 15px;
+}
